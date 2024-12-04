@@ -385,8 +385,7 @@ const questions = [
         difficulty: 4
     },
     {
-        question: "مَنْ يَسْتَغْفِرِ اللَّهَ يُغْفَرْ لَهُ", 
-        questionText: "Manakah adawat syarat dalam kalimat:",
+        question: "Manakah *adawat syarat* dalam kalimat: 'مَنْ يَسْتَغْفِرِ اللَّهَ يُغْفَرْ لَهُ'؟",
         answers: [
             "يَسْتَغْفِرِ",
             "اللَّهَ",
@@ -394,11 +393,10 @@ const questions = [
             "مَنْ"
         ],
         correct: 3,
-        difficulty: 4
+        difficulty: 2
     },
     {
-        question: "قَالَ رَبِّي زِدْنِي عِلْمًا",
-        questionText: "Dalam kalimat berikut, kata \"عِلْمًا\" adalah:",
+        question: "Dalam kalimat: 'قَالَ رَبِّي زِدْنِي عِلْمًا', kata 'عِلْمًا' adalah:",
         answers: [
             "حال",
             "مفعول مطلق",
@@ -406,11 +404,10 @@ const questions = [
             "مضاف إليه"
         ],
         correct: 2,
-        difficulty: 4
+        difficulty: 2
     },
     {
-        question: "لَدَيَّ عَشَرَةُ كُتُبٍ",
-        questionText: "Apa hubungan antara \"عَشَرَةٌ\" dan \"كُتُبٍ\" dalam kalimat:",
+        question: "Apa hubungan antara 'عَشَرَةٌ' dan 'كُتُبٍ' dalam kalimat: 'لَدَيَّ عَشَرَةُ كُتُبٍ'؟",
         answers: [
             "بدل",
             "تمييز",
@@ -418,11 +415,10 @@ const questions = [
             "خبر"
         ],
         correct: 2,
-        difficulty: 4
+        difficulty: 2
     },
     {
-        question: "كَانَ الطَّالِبُ نَشِيطًا",
-        questionText: "Dalam kalimat berikut, kata \"كَانَ\" adalah:",
+        question: "Dalam kalimat: 'كَانَ الطَّالِبُ نَشِيطًا', kata 'كَانَ' adalah:",
         answers: [
             "فعل ناقص",
             "فعل تام",
@@ -430,11 +426,10 @@ const questions = [
             "خبر كان"
         ],
         correct: 0,
-        difficulty: 4
+        difficulty: 2
     },
     {
-        question: "سَارَ الوَلَدُ",
-        questionText: "Dalam kalimat berikut, kata \"سَارَ\" adalah fi'il:",
+        question: "Dalam kalimat: 'سَارَ الوَلَدُ', kata 'سَارَ' adalah fi'il:",
         answers: [
             "لازم",
             "متعدٍّ",
@@ -442,11 +437,10 @@ const questions = [
             "مفعول"
         ],
         correct: 0,
-        difficulty: 4
+        difficulty: 2
     },
     {
-        question: "كَتَبَ المُعَلِّمُ الدَّرْسَ",
-        questionText: "Dalam kalimat berikut, kata \"كَتَبَ\" adalah fi'il:",
+        question: "Dalam kalimat: 'كَتَبَ المُعَلِّمُ الدَّرْسَ', kata 'كَتَبَ' adalah fi'il:",
         answers: [
             "لازم",
             "متعدٍّ",
@@ -454,11 +448,10 @@ const questions = [
             "حال"
         ],
         correct: 1,
-        difficulty: 4
+        difficulty: 2
     },
     {
-        question: "لَيْسَ الحَقُّ ضَائِعًا",
-        questionText: "Dalam kalimat berikut, kata \"لَيْسَ\" adalah:",
+        question: "Dalam kalimat: 'لَيْسَ الحَقُّ ضَائِعًا', kata 'لَيْسَ' adalah:",
         answers: [
             "اسم ليس",
             "خبر ليس",
@@ -466,11 +459,10 @@ const questions = [
             "حال"
         ],
         correct: 2,
-        difficulty: 4
+        difficulty: 2
     },
     {
-        question: "عِنْدِي خَمْسَةُ أَقْلَامٍ",
-        questionText: "Dalam kalimat berikut, tanda i'rab pada \"أَقْلَامٍ\" adalah:",
+        question: "Dalam kalimat: 'عِنْدِي خَمْسَةُ أَقْلَامٍ', tanda i'rab pada 'أَقْلَامٍ' adalah:",
         answers: [
             "الضمة",
             "الفتحة",
@@ -478,11 +470,10 @@ const questions = [
             "السكون"
         ],
         correct: 2,
-        difficulty: 4
+        difficulty: 2
     },
     {
-        question: "هَلْ هَذَا الطِّفْلُ ذَكِيٌّ؟",
-        questionText: "Dalam kalimat berikut, kata \"هَلْ\" adalah:",
+        question: "Dalam kalimat: 'هَلْ هَذَا الطِّفْلُ ذَكِيٌّ؟', kata 'هَلْ' adalah:",
         answers: [
             "اسم شرط",
             "حرف استفهام",
@@ -490,11 +481,10 @@ const questions = [
             "بدل"
         ],
         correct: 1,
-        difficulty: 4
+        difficulty: 2
     },
     {
-        question: "مَا أَحْسَنَ الوَرْدَ!",
-        questionText: "Dalam kalimat berikut, kata \"الوَرْدَ\" adalah:",
+        question: "Dalam kalimat: 'مَا أَحْسَنَ الوَرْدَ!', kata 'الوَرْدَ' adalah:",
         answers: [
             "مفعول مطلق",
             "مفعول به",
@@ -502,11 +492,10 @@ const questions = [
             "حال"
         ],
         correct: 1,
-        difficulty: 4
+        difficulty: 2
     },
     {
-        question: "قَدْ أَفْلَحَ الْمُؤْمِنُونَ",
-        questionText: "Dalam kalimat berikut, kata \"قَدْ\" adalah:",
+        question: "Dalam kalimat: 'قَدْ أَفْلَحَ الْمُؤْمِنُونَ', kata 'قَدْ' adalah:",
         answers: [
             "حرف نصب",
             "حرف تحقيق",
@@ -514,11 +503,10 @@ const questions = [
             "حرف استفهام"
         ],
         correct: 1,
-        difficulty: 4
+        difficulty: 2
     },
     {
-        question: "ذَهَبَ الرَّجُلُ إِلَى السُّوقِ",
-        questionText: "Apa fungsi kata \"إِلَى\" dalam kalimat:",
+        question: "Apa fungsi kata 'إِلَى' dalam kalimat: 'ذَهَبَ الرَّجُلُ إِلَى السُّوقِ'؟",
         answers: [
             "اسم",
             "ظرف",
@@ -526,11 +514,10 @@ const questions = [
             "حال"
         ],
         correct: 2,
-        difficulty: 4
+        difficulty: 2
     },
     {
-        question: "جَلَسَ زَيْدٌ خَلْفَ الكِتَابِ",
-        questionText: "Dalam kalimat berikut, kata \"خَلْفَ\" adalah:",
+        question: "Dalam kalimat: 'جَلَسَ زَيْدٌ خَلْفَ الكِتَابِ', kata 'خَلْفَ' adalah:",
         answers: [
             "اسم شرط",
             "ظرف مكان",
@@ -538,11 +525,10 @@ const questions = [
             "بدل"
         ],
         correct: 1,
-        difficulty: 4
+        difficulty: 2
     },
     {
-        question: "هَذَا وَلَدٌ كَرِيمٌ",
-        questionText: "Dalam kalimat berikut, kata \"كَرِيمٌ\" adalah:",
+        question: "Dalam kalimat: 'هَذَا وَلَدٌ كَرِيمٌ', kata 'كَرِيمٌ' adalah:",
         answers: [
             "حال",
             "بدل",
@@ -550,11 +536,10 @@ const questions = [
             "مضاف"
         ],
         correct: 2,
-        difficulty: 4
+        difficulty: 2
     },
     {
-        question: "مَا زَالَ الطَّالِبُ يَجْتَهِدُ",
-        questionText: "Dalam kalimat berikut, kata \"مَا زَالَ\" adalah salah satu dari:",
+        question: "Dalam kalimat: 'مَا زَالَ الطَّالِبُ يَجْتَهِدُ', kata 'مَا زَالَ' adalah salah satu dari:",
         answers: [
             "أفعال المقاربة",
             "أفعال الاستمرار",
@@ -562,11 +547,10 @@ const questions = [
             "أفعال المدح"
         ],
         correct: 1,
-        difficulty: 4
+        difficulty: 2
     },
     {
-        question: "الرَّجُلُ الْأَمِينُ يُحِبُّهُ النَّاسُ",
-        questionText: "Apa hubungan antara \"الرَّجُلُ\" dan \"الْأَمِينُ\" dalam kalimat:",
+        question: "Apa hubungan antara 'الرَّجُلُ' dan 'الْأَمِينُ' dalam kalimat: 'الرَّجُلُ الْأَمِينُ يُحِبُّهُ النَّاسُ'؟",
         answers: [
             "بدل",
             "نعت ومنعوت",
@@ -574,11 +558,10 @@ const questions = [
             "مضاف ومضاف إليه"
         ],
         correct: 1,
-        difficulty: 4
+        difficulty: 2
     },
     {
-        question: "لَعَلَّكَ تَنْجَحُ",
-        questionText: "Dalam kalimat berikut, kata \"لَعَلَّ\" adalah:",
+        question: "Dalam kalimat: 'لَعَلَّكَ تَنْجَحُ', kata 'لَعَلَّ' adalah:",
         answers: [
             "حرف نفي",
             "حرف مشبه بالفعل",
@@ -586,11 +569,10 @@ const questions = [
             "اسم"
         ],
         correct: 1,
-        difficulty: 4
+        difficulty: 2
     },
     {
-        question: "قَامَ المُدَرِّسُ قِيَامًا",
-        questionText: "Dalam kalimat berikut, kata \"قِيَامًا\" adalah:",
+        question: "Dalam kalimat: 'قَامَ المُدَرِّسُ قِيَامًا', kata 'قِيَامًا' adalah:",
         answers: [
             "حال",
             "مفعول مطلق",
@@ -598,11 +580,10 @@ const questions = [
             "ظرف"
         ],
         correct: 1,
-        difficulty: 4
+        difficulty: 2
     },
     {
-        question: "يَفْهَمُ الطِّفْلُ فِي المَدْرَسَةِ",
-        questionText: "Dalam kalimat berikut, kata \"فِي\" adalah:",
+        question: "Dalam kalimat: 'يَفْهَمُ الطِّفْلُ فِي المَدْرَسَةِ', kata 'فِي' adalah:",
         answers: [
             "اسم",
             "حرف جر",
@@ -610,11 +591,10 @@ const questions = [
             "بدل"
         ],
         correct: 1,
-        difficulty: 4
+        difficulty: 2
     },
     {
-        question: "إِنَّ المُسْلِمِينَ إِخْوَةٌ",
-        questionText: "Apa tanda i'rab pada \"المُسْلِمِينَ\" dalam kalimat:",
+        question: "Apa tanda i'rab pada 'المُسْلِمِينَ' dalam kalimat: 'إِنَّ المُسْلِمِينَ إِخْوَةٌ'؟",
         answers: [
             "الضمة",
             "الكسرة",
@@ -622,7 +602,7 @@ const questions = [
             "السكون"
         ],
         correct: 2,
-        difficulty: 4
+        difficulty: 2
     }
 ];
 
