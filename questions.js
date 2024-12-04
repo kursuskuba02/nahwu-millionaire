@@ -383,6 +383,246 @@ const questions = [
         ],
         correct: 2,
         difficulty: 4
+    },
+    {
+        question: "مَنْ يَسْتَغْفِرِ اللَّهَ يُغْفَرْ لَهُ", 
+        questionText: "Manakah adawat syarat dalam kalimat:",
+        answers: [
+            "يَسْتَغْفِرِ",
+            "اللَّهَ",
+            "يُغْفَرْ",
+            "مَنْ"
+        ],
+        correct: 3,
+        difficulty: 4
+    },
+    {
+        question: "قَالَ رَبِّي زِدْنِي عِلْمًا",
+        questionText: "Dalam kalimat berikut, kata \"عِلْمًا\" adalah:",
+        answers: [
+            "حال",
+            "مفعول مطلق",
+            "تمييز",
+            "مضاف إليه"
+        ],
+        correct: 2,
+        difficulty: 4
+    },
+    {
+        question: "لَدَيَّ عَشَرَةُ كُتُبٍ",
+        questionText: "Apa hubungan antara \"عَشَرَةٌ\" dan \"كُتُبٍ\" dalam kalimat:",
+        answers: [
+            "بدل",
+            "تمييز",
+            "عدد ومعدود",
+            "خبر"
+        ],
+        correct: 2,
+        difficulty: 4
+    },
+    {
+        question: "كَانَ الطَّالِبُ نَشِيطًا",
+        questionText: "Dalam kalimat berikut, kata \"كَانَ\" adalah:",
+        answers: [
+            "فعل ناقص",
+            "فعل تام",
+            "اسم كان",
+            "خبر كان"
+        ],
+        correct: 0,
+        difficulty: 4
+    },
+    {
+        question: "سَارَ الوَلَدُ",
+        questionText: "Dalam kalimat berikut, kata \"سَارَ\" adalah fi'il:",
+        answers: [
+            "لازم",
+            "متعدٍّ",
+            "ناقص",
+            "مفعول"
+        ],
+        correct: 0,
+        difficulty: 4
+    },
+    {
+        question: "كَتَبَ المُعَلِّمُ الدَّرْسَ",
+        questionText: "Dalam kalimat berikut, kata \"كَتَبَ\" adalah fi'il:",
+        answers: [
+            "لازم",
+            "متعدٍّ",
+            "ناقص",
+            "حال"
+        ],
+        correct: 1,
+        difficulty: 4
+    },
+    {
+        question: "لَيْسَ الحَقُّ ضَائِعًا",
+        questionText: "Dalam kalimat berikut, kata \"لَيْسَ\" adalah:",
+        answers: [
+            "اسم ليس",
+            "خبر ليس",
+            "فعل ناقص",
+            "حال"
+        ],
+        correct: 2,
+        difficulty: 4
+    },
+    {
+        question: "عِنْدِي خَمْسَةُ أَقْلَامٍ",
+        questionText: "Dalam kalimat berikut, tanda i'rab pada \"أَقْلَامٍ\" adalah:",
+        answers: [
+            "الضمة",
+            "الفتحة",
+            "الكسرة",
+            "السكون"
+        ],
+        correct: 2,
+        difficulty: 4
+    },
+    {
+        question: "هَلْ هَذَا الطِّفْلُ ذَكِيٌّ؟",
+        questionText: "Dalam kalimat berikut, kata \"هَلْ\" adalah:",
+        answers: [
+            "اسم شرط",
+            "حرف استفهام",
+            "مفعول فيه",
+            "بدل"
+        ],
+        correct: 1,
+        difficulty: 4
+    },
+    {
+        question: "مَا أَحْسَنَ الوَرْدَ!",
+        questionText: "Dalam kalimat berikut, kata \"الوَرْدَ\" adalah:",
+        answers: [
+            "مفعول مطلق",
+            "مفعول به",
+            "مبتدأ",
+            "حال"
+        ],
+        correct: 1,
+        difficulty: 4
+    },
+    {
+        question: "قَدْ أَفْلَحَ الْمُؤْمِنُونَ",
+        questionText: "Dalam kalimat berikut, kata \"قَدْ\" adalah:",
+        answers: [
+            "حرف نصب",
+            "حرف تحقيق",
+            "حرف جزم",
+            "حرف استفهام"
+        ],
+        correct: 1,
+        difficulty: 4
+    },
+    {
+        question: "ذَهَبَ الرَّجُلُ إِلَى السُّوقِ",
+        questionText: "Apa fungsi kata \"إِلَى\" dalam kalimat:",
+        answers: [
+            "اسم",
+            "ظرف",
+            "حرف جر",
+            "حال"
+        ],
+        correct: 2,
+        difficulty: 4
+    },
+    {
+        question: "جَلَسَ زَيْدٌ خَلْفَ الكِتَابِ",
+        questionText: "Dalam kalimat berikut, kata \"خَلْفَ\" adalah:",
+        answers: [
+            "اسم شرط",
+            "ظرف مكان",
+            "مفعول به",
+            "بدل"
+        ],
+        correct: 1,
+        difficulty: 4
+    },
+    {
+        question: "هَذَا وَلَدٌ كَرِيمٌ",
+        questionText: "Dalam kalimat berikut, kata \"كَرِيمٌ\" adalah:",
+        answers: [
+            "حال",
+            "بدل",
+            "نعت",
+            "مضاف"
+        ],
+        correct: 2,
+        difficulty: 4
+    },
+    {
+        question: "مَا زَالَ الطَّالِبُ يَجْتَهِدُ",
+        questionText: "Dalam kalimat berikut, kata \"مَا زَالَ\" adalah salah satu dari:",
+        answers: [
+            "أفعال المقاربة",
+            "أفعال الاستمرار",
+            "أفعال التمني",
+            "أفعال المدح"
+        ],
+        correct: 1,
+        difficulty: 4
+    },
+    {
+        question: "الرَّجُلُ الْأَمِينُ يُحِبُّهُ النَّاسُ",
+        questionText: "Apa hubungan antara \"الرَّجُلُ\" dan \"الْأَمِينُ\" dalam kalimat:",
+        answers: [
+            "بدل",
+            "نعت ومنعوت",
+            "مبتدأ وخبر",
+            "مضاف ومضاف إليه"
+        ],
+        correct: 1,
+        difficulty: 4
+    },
+    {
+        question: "لَعَلَّكَ تَنْجَحُ",
+        questionText: "Dalam kalimat berikut, kata \"لَعَلَّ\" adalah:",
+        answers: [
+            "حرف نفي",
+            "حرف مشبه بالفعل",
+            "فعل مضارع",
+            "اسم"
+        ],
+        correct: 1,
+        difficulty: 4
+    },
+    {
+        question: "قَامَ المُدَرِّسُ قِيَامًا",
+        questionText: "Dalam kalimat berikut, kata \"قِيَامًا\" adalah:",
+        answers: [
+            "حال",
+            "مفعول مطلق",
+            "بدل",
+            "ظرف"
+        ],
+        correct: 1,
+        difficulty: 4
+    },
+    {
+        question: "يَفْهَمُ الطِّفْلُ فِي المَدْرَسَةِ",
+        questionText: "Dalam kalimat berikut, kata \"فِي\" adalah:",
+        answers: [
+            "اسم",
+            "حرف جر",
+            "مفعول فيه",
+            "بدل"
+        ],
+        correct: 1,
+        difficulty: 4
+    },
+    {
+        question: "إِنَّ المُسْلِمِينَ إِخْوَةٌ",
+        questionText: "Apa tanda i'rab pada \"المُسْلِمِينَ\" dalam kalimat:",
+        answers: [
+            "الضمة",
+            "الكسرة",
+            "الفتحة",
+            "السكون"
+        ],
+        correct: 2,
+        difficulty: 4
     }
 ];
 
