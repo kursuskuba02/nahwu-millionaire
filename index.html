@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nahwu Millionaire</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="game-container">
+        <div id="main-menu" class="screen">
+            <h1>نَحْوُ مِلْيُونِير</h1>
+            <h2>Nahwu Millionaire</h2>
+            <button id="start-game">Mulai Permainan</button>
+            <button id="how-to-play">Cara Bermain</button>
+<!-- Watermark -->
+<div class="watermark">
+    Game ini dibuat oleh <a href="https://kursuskuba.com" target="_blank"><strong>kursuskuba.com</strong></a><br>
+    Tempat Belajar Bahasa Arab dengan Teknologi Modern
+</div>        </div>
+    </div>
+    <script>
+        document.getElementById('start-game').addEventListener('click', () => {
+            window.location.href = 'game.html';
+        });
+        document.getElementById('how-to-play').addEventListener('click', () => {
+            alert('Cara Bermain:\n\n1. Jawab 14 pertanyaan untuk memenangkan 1 Miliar Rupiah\n2. Anda memiliki 3 bantuan yang bisa digunakan:\n   - 50:50: Menghilangkan 2 jawaban yang salah\n   - Phone: Menelepon teman untuk bantuan\n   - Ask: Bertanya kepada penonton\n3. Ada 3 checkpoint yang menjamin uang Anda:\n   - Rp 50.000\n   - Rp 1.000.000\n   - Rp 50.000.000');
+        });
+    </script>
+</body>
+</html>

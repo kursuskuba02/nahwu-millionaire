@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nahwu Millionaire - Game</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="game-container">
+        <div id="game-screen" class="screen">
+            <div id="timer">30</div>
+            
+            <div id="lifelines">
+                <button class="lifeline" id="fifty-fifty">
+                    <span>50:50</span>
+                </button>
+                <button class="lifeline" id="phone-friend">
+                    <span>Phone</span>
+                </button>
+                <button class="lifeline" id="ask-audience">
+                    <span>Ask</span>
+                </button>
+            </div>
+
+            <div id="question-container">
+                <div id="current-prize">Rp 50.000</div>
+                <div id="question" dir="ltr"></div>
+                <div id="answers-container">
+                    <div class="answer-wrapper">
+                        <div class="answer-letter">A</div>
+                        <button class="answer" data-answer="0" dir="ltr"></button>
+                    </div>
+                    <div class="answer-wrapper">
+                        <div class="answer-letter">B</div>
+                        <button class="answer" data-answer="1" dir="ltr"></button>
+                    </div>
+                    <div class="answer-wrapper">
+                        <div class="answer-letter">C</div>
+                        <button class="answer" data-answer="2" dir="ltr"></button>
+                    </div>
+                    <div class="answer-wrapper">
+                        <div class="answer-letter">D</div>
+                        <button class="answer" data-answer="3" dir="ltr"></button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="money-tree">
+                <ul>
+                    <li>Rp 1.000.000.000</li>
+                    <li>Rp 500.000.000</li>
+                    <li>Rp 250.000.000</li>
+                    <li>Rp 100.000.000</li>
+                    <li class="checkpoint">Rp 50.000.000</li>
+                    <li>Rp 25.000.000</li>
+                    <li>Rp 10.000.000</li>
+                    <li>Rp 5.000.000</li>
+                    <li>Rp 2.000.000</li>
+                    <li class="checkpoint">Rp 1.000.000</li>
+                    <li>Rp 500.000</li>
+                    <li>Rp 250.000</li>
+                    <li>Rp 100.000</li>
+                    <li class="checkpoint">Rp 50.000</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Add confirmation modal -->
+    <div id="confirmModal" class="modal">
+        <div class="modal-content">
+            <h2>Final Answer?</h2>
+            <div class="modal-buttons">
+                <button id="confirmYes">Ya, Final Answer!</button>
+                <button id="confirmNo">Tidak, saya mau ganti</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="questions.js"></script>
+    <script src="game.js"></script>
+</body>
+</html>
